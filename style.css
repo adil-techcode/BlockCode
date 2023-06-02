@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    background-color: navy;
+    color: white ;
+}
+
+.logo{
+    font-size: 2em;
+}
+
+.tree-field{
+    width: 600px !important;
+    padding: 7px !important;
+    color: aliceblue;
+}
+
+
+.copy-btn{
+    float: right;
+}
+.proofBox{
+ width: 100%;
+ height: 150px;
+
+ color: white;
+ overflow-y: scroll;
+display: flex;
+
+align-items: center;
+
+}
+
+#proof{
+    
+    /* padding-top:  50px; */
+    padding: 0px 20px;
+}
+.chain{
+    
+        display: inline-block;
+        transform: rotate(-90deg);
+        animation: rotate 5s linear infinite;
+      
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
